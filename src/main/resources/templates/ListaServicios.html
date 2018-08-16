@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Servicios</title>
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+<link rel="stylesheet" th:href="@{/css/jquery-ui.min.css}" />
+<link rel="stylesheet" th:href="@{/css/main.css}" />
+</head>
+<body>
+   <div class="container">
+     <h1 th:text="${titulo}"></h1>
+     <button id="xmlCambiar">cambiar</button><br><br>
+     <textarea class="formXML" rows="20" cols="80"></textarea>
+     <div class="form">
+     </div>
+   </div>
+   
+   <script th:src="@{/js/jquery-3.2.1.min.js}"></script>
+   <script th:src="@{/js/popper.min.js}"></script>
+   <script th:src="@{/js/bootstrap.min.js}"></script>
+   <script th:src="@{/js/hector.js}"></script>
+</body>
+</html>
